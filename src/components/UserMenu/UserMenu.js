@@ -5,6 +5,7 @@ import { useAuth } from 'hooks';
 import { IconButton } from '@mui/material';
 import { RiLogoutBoxRFill } from 'react-icons/ri';
 import css from './UserMenu.module.css';
+import { Link } from 'react-router-dom';
 
 export const UserMenu = () => {
   const dispatch = useDispatch();
@@ -13,6 +14,7 @@ export const UserMenu = () => {
   return (
     <div className={css.wrapper}>
       <p className={css.username}>Welcome, {user.name}</p>
+      <Link to="/profile">Profile </Link>
       {/* <button type="button" onClick={() => dispatch(logOut())}>
            Logout
       </button> */}
