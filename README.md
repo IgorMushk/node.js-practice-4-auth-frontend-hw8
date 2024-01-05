@@ -45,3 +45,9 @@ Profile.jsx:10 Uncaught TypeError: *avatar.includes is not a function* Profile.j
 
 ![Screenshoot-9-2](./assets/screen9-2.jpg)
 
+
+8. FIX error
+
+![Screenshoot-9-2](./assets/screenA.jpg)
+
+

@@ -80,7 +80,7 @@ export const updateProfile = createAsyncThunk(
       const formData = new FormData();
       formData.append("avatar", file);
       const data = await axios.patch('/users/avatar', formData, {headers: {"Content-Type": 'multipart/form-data'}});
-      return data; // avatarURL
+      return data.data.avatarURL; // avatarURL
     } catch (error) {
       return rejectWithValue(error.response.data.message);
     }
