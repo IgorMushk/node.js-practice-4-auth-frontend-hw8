@@ -16,7 +16,7 @@
 
 4. Load new avatar
 
-![Screenshoot-4](./assets/screen3.jpg)
+![Screenshoot-4](./assets/screen4.jpg)
 
 
 ![Screenshoot-5](./assets/screen5.jpg)
