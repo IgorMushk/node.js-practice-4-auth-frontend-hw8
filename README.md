@@ -1,6 +1,6 @@
 # Add Profile & UpdateProfile
 
-1.  Login 
+1.  Login miimii@ukr.net - 123456
 
 ![Screenshoot-1](./assets/screen.jpg)
 
