@@ -63,3 +63,5 @@ Profile.jsx:10 Uncaught TypeError: *avatar.includes is not a function* Profile.j
 3. Update contactsSlice.js
 
 ![Screenshoot-B-3](./assets/screenB-3.jpg)
+
+= Finish!
