@@ -42,7 +42,8 @@ const contactsSlice = createSlice({
         state.isLoading = false;
         state.error = null;
         const index = state.items.findIndex(
-            contact => contact.id === action.payload.id
+            //contact => contact.id === action.payload.id
+            contact => contact._id === action.payload
         );
         state.items.splice(index, 1);
         toast.info('Contact has been deleted!');

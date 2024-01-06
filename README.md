@@ -50,4 +50,16 @@ Profile.jsx:10 Uncaught TypeError: *avatar.includes is not a function* Profile.j
 
 ![Screenshoot-9-2](./assets/screenA.jpg)
 
+# Add only owner contacts - get / delete
 
+1. Update ContactList.jsx
+
+![Screenshoot-B-1](./assets/screenB-1.jpg)
+
+2. Update contact/operations.js.jsx
+
+![Screenshoot-B-2](./assets/screenB-2.jpg)
+
+3. Update contactsSlice.js
+
+![Screenshoot-B-3](./assets/screenB-3.jpg)
